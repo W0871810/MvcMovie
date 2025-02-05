@@ -117,16 +117,19 @@ Test & Run
 All good. Saved at the last minute.
 
 
-20250205-0828
+2025-02-05
+0828 
 Clean started at 8:28 AM...
 1>------ Clean started: Project: MvcMovie, Configuration: Debug Any CPU ------
 ========== Clean: 1 succeeded, 0 failed, 0 skipped ==========
 ========== Clean completed at 8:28 AM and took 09.214 seconds ==========Clean completed at 8:28 AM and took 09.214 seconds
 8:59 Test and Run App
 Ready to Push to GitHub
-12:58 updated Seed.cs with 5 new records of movies
-
-1210
-https://github.com/W0871810/MvcMovie
+1210 https://github.com/W0871810/MvcMovie
 checked URL in Chrome and it was working as public
+12:12 updated Seed.cs with 5 new records of movies & Update-database
+12:20 Git-fetch-Pull
+      make changes
+12:25 Commit (changes to Seed.cs)
+Ready to push project
 

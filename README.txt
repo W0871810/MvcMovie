@@ -124,4 +124,5 @@ Clean started at 8:28 AM...
 ========== Clean completed at 8:28 AM and took 09.214 seconds ==========Clean completed at 8:28 AM and took 09.214 seconds
 8:59 Test and Run App
 Ready to Push to GitHub
+12:58 updated Seed.cs with 5 new records of movies
 

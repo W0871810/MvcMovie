@@ -47,6 +47,42 @@ public static class SeedData
                     ReleaseDate = DateTime.Parse("1959-4-15"),
                     Genre = "Western",
                     Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "Armand",
+                    ReleaseDate = DateTime.Parse("2025-02-07"),
+                    Genre = "Psychological Drama",
+                    Price = 12.00M
+                },
+                new Movie
+                {
+                    Title = "Bring Them Down",
+                    ReleaseDate = DateTime.Parse("2025-02-7"),
+                    Genre = "Family Drama",
+                    Price = 10.00M
+                },
+                                
+                new Movie
+                {
+                Title = "Hear Eyes",
+                ReleaseDate = DateTime.Parse("2025-02-7"),
+                Genre = "Horror",
+                Price = 15.00M
+                },
+                new Movie
+                {
+                    Title = "I'm Still Here",
+                    ReleaseDate = DateTime.Parse("2025-02-7"),
+                    Genre = "Drama",
+                    Price = 13.00M
+                },
+                new Movie
+                {
+                    Title = "Captain America: Brave New World",
+                    ReleaseDate = DateTime.Parse("2025-02-14"),
+                    Genre = "Superhero",
+                    Price = 18.00M
                 }
             );
             context.SaveChanges();

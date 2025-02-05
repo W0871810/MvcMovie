@@ -125,3 +125,7 @@ Clean started at 8:28 AM...
 8:59 Test and Run App
 Ready to Push to GitHub
 
+1210
+https://github.com/W0871810/MvcMovie
+checked URL in Chrome and it was working as public
+

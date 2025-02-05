@@ -71,6 +71,7 @@ Ran these commands in the PM command prompt
 ""Add-Migration Rating""
 "Update-Database""
   VALUES (N'20250126042838_Rating', N'8.0.11')
+
 Ran app
 successful
 

@@ -126,3 +126,7 @@ Clean started at 8:28 AM...
 Ready to Push to GitHub
 12:58 updated Seed.cs with 5 new records of movies
 
+1210
+https://github.com/W0871810/MvcMovie
+checked URL in Chrome and it was working as public
+

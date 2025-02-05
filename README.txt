@@ -67,9 +67,9 @@ SqlException: Invalid column name 'Rating'.
 Microsoft.Data.SqlClient.SqlCommand+<>c.<ExecuteDbDataReaderAsync>b__211_0(Task<SqlDataReader> result)
 
 Had to get NuPackages
-Ran these commands in the command prompt
-Add-Migration Rating
-Update-Database
+Ran these commands in the PM command prompt
+""Add-Migration Rating""
+"Update-Database""
   VALUES (N'20250126042838_Rating', N'8.0.11')
 Ran app
 successful
@@ -105,5 +105,22 @@ Clean started at 8:25 AM...
 ========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
 ========== Build completed at 8:45 AM and took 11.443 seconds ==========
 
+1009
+20250129
+Test & Run
+Exception Handling error "cannot run on Null Data"
+Update-Dabase command run in PM console
+response: "The database is already up to date"
+inspected database tables - updated tables and removed Null values for Rating
+Test & Run
+All good. Saved at the last minute.
 
+
+20250205-0828
+Clean started at 8:28 AM...
+1>------ Clean started: Project: MvcMovie, Configuration: Debug Any CPU ------
+========== Clean: 1 succeeded, 0 failed, 0 skipped ==========
+========== Clean completed at 8:28 AM and took 09.214 seconds ==========Clean completed at 8:28 AM and took 09.214 seconds
+8:59 Test and Run App
+Ready to Push to GitHub
 

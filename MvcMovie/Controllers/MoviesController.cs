@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcMovie.Data;
@@ -27,10 +23,10 @@ namespace MvcMovie.Controllers
         // GET: Movies
         public async Task<IActionResult> Index(string movieGenre, string searchString)
         {
-            if (_context.Movie == null)
-            {
-                return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
-            var 
+            //if (_context.Movie == null)
+            //{
+            //   return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
+            //var      
 
             // Use LINQ to get list of genres.
             IQueryable<string> genreQuery = from m in _context.Movie
